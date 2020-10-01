@@ -1,9 +1,9 @@
-# Coding Class
+## Coding Class
 
-## Class Name: Introduction to Web Development
-## Teacher: Chao
-## Time: Sunday 2: 00 pm - 3: 30 pm
-## Zoom Link: 
+### Class Name: Introduction to Web Development
+### Teacher: Chao
+### Time: Sunday 2: 00 pm - 3: 30 pm
+### Zoom Link: 
 Chao Zhang is inviting you to a scheduled Zoom meeting.
 
 Topic: Chao Zhang's Personal Meeting Room
@@ -32,7 +32,8 @@ Dial by your location
 Meeting ID: 731 372 6164
 Find your local number: https://us02web.zoom.us/u/kEEHZLdeU
 
-#
+### Tutorial Link: https://web-dev-tutorial.vercel.app/
+##
 
-## Please set your zoom username to your real name so I can let you get into the class. Thank you.
+### Please set your zoom username to your real name so I can let you get into the class. Thank you.
  
