@@ -1,0 +1,9 @@
+目前2节课的总结：第一节课我们学习了html 第二节课我们学习了css 通过2节课的学习 我们从零基础网站编程小白到学习了如何用代码制作一个网站 下面是部分学生的展示成果 
+Jerry: https://jerrysworkaboutleo.netlify.app/
+Gabriel: https://gabriel-lou.netlify.app/
+Hudson: https://impel.netlify.app/
+Eric: https://mci.netlify.app/
+大家可以在浏览器中输入网址进行查看
+这周作业是完成css代码丰富自己的网站 没有完成html的同学这周请把html和css一起完成
+请大家这周完成代码然后上线到netlify 把自己网站地址通过email 发到我的邮箱raidenchao@gmail.com 有问题随时email问我 上课zoom的link都是不变的 请大家保存一下 下次可以直接点进去上课 我在上课前20分钟会打开教室 谢谢
+

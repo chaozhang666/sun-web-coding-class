@@ -1,0 +1,38 @@
+#title1 {
+  color: blue;
+  background-color: yellow;
+  padding: 100px 0;
+  margin: 100px 0;
+  font-size: 500%;
+  text-align: center;
+}
+
+#title2 {
+  color: blue;
+  background-color: red;
+  padding: 100px 0;
+  margin: 100px 0;
+  font-size: 500%;
+  text-align: center;
+}
+
+h2 {
+  color: red;
+  display: inline-block;
+  background-color: green;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+body {
+  padding: 20px;
+  width: 50%;
+  border-style: dotted;
+  border-width: 30px;
+  border-color: yellowgreen;
+  margin: auto;
+  background-color: tomato;
+}
