@@ -1,0 +1,23 @@
+h1 {
+  color: blue;
+  background-color: yellow;
+  border: 10px black solid;
+  padding: 50px;
+  margin: 100px;
+  display: inline;
+}
+
+h2 {
+  font-size: 800%;
+  background-color: brown;
+  display: inline;
+  padding: 20px;
+  margin: 200px;
+}
+
+img {
+  width: 300px;
+  height: 200px;
+  border: 10px blue solid;
+  padding: 20px;
+}
