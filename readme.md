@@ -32,8 +32,5 @@ Dial by your location
 Meeting ID: 731 372 6164
 Find your local number: https://us02web.zoom.us/u/kEEHZLdeU
 
-### Tutorial Link: https://web-dev-tutorial.vercel.app/
-##
-
 ### Please set your zoom username to your real name so I can let you get into the class. Thank you.
  
