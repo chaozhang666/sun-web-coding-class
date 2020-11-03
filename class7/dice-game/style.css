@@ -1,0 +1,33 @@
+body {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+.dice {
+  display: inline-block;
+  margin: 0px 40px;
+}
+
+h1 {
+  font-size: 400%;
+}
+
+p {
+  font-size: 200%;
+}
+
+button {
+  font-size: 150%;
+  margin: 60px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 0px;
+}
+
+button:hover {
+  background-color: darkred;
+  color: white;
+  transition: 1s;
+  cursor: pointer;
+}
