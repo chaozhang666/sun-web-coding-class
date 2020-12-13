@@ -1,0 +1,31 @@
+#sq {
+  width: 200px;
+  height: 200px;
+  background-color: #8ef6e4;
+  border-radius: 10px;
+}
+
+button {
+  background-color: #9896f1;
+  color: #fff;
+  border: 0px;
+  border-radius: 10px;
+  font-size: 20px;
+  margin: 10px;
+  padding: 10px 20px;
+  transition: 0.4s;
+  outline: none;
+}
+button:hover {
+  cursor: pointer;
+}
+
+body {
+  background-color: #edb1f1;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
