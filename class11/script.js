@@ -11,11 +11,29 @@ function generateRandomWord() {
 
 generateRandomWord()
 
+setInterval(() => {
+  time = time - 1;
+  $('#time').html(time);
+  if (time === 0) {
+    alert('Game Over !')
+  }
+}, 1000);
+
 $('#text').on('input', (e) => {
   if (randomWord === e.target.value) {
     generateRandomWord()
     e.target.value = '';
+    score = score + 1;
+    $('#score').html(score);
+    time = time + 5;
+    $('#time').html(time);
   }
 })
 
+// setTimeout(() => {
+//   console.log('hello');
+// }, 1000);
 
+// setInterval(() => {
+//   console.log('hi');
+// }, 1000);
