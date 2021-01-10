@@ -4,6 +4,34 @@ const message = document.getElementById('msg');
 const randomNum = Math.floor(Math.random() * 100) + 1
 console.log(randomNum);
 
+
+function checkNumber(msg) {
+
+  // too big ? too small ? correct ! 
+
+  // check if valid number 
+  if (Number.isNaN(msg)) {
+    alert('!')
+    message.innerHTML = 'That is not a valid number!'
+    return 
+  }
+
+  // check the range 
+  if (num > 100 || num < 1) {
+    message.innerHTML = 'Number must be between 1 and 100'
+  }
+
+  if (num === randomNum) {
+    message.innerHTML = 'Bingo !'
+  } else if (num > randomNum) {
+    message.innerHTML = 'Go Lower !'
+  } else {
+    message.innerHTML = 'Go Higher !'
+  }
+
+  // keep playing untill user guessing the correct number
+}
+
 // step 2 - start recognition 
 window.SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
 
@@ -18,9 +46,7 @@ recognition.addEventListener('result', (e) => {
 
   // homework:
   // write a function to check the number:
-  // too big ? too small ? correct ! 
-  // keep playing untill user guessing the correct number
-
+  checkNumber(result);
 })
 
 // End SR service
