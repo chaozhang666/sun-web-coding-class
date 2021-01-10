@@ -12,21 +12,21 @@ function checkNumber(msg) {
   // check if valid number 
   if (Number.isNaN(msg)) {
     alert('!')
-    message.innerHTML = 'That is not a valid number!'
+    message.innerText = 'That is not a valid number!'
     return 
   }
 
   // check the range 
   if (num > 100 || num < 1) {
-    message.innerHTML = 'Number must be between 1 and 100'
+    message.innerText = 'Number must be between 1 and 100'
   }
 
   if (num === randomNum) {
-    message.innerHTML = 'Bingo !'
+    message.innerText = 'Bingo !'
   } else if (num > randomNum) {
-    message.innerHTML = 'Go Lower !'
+    message.innerText = 'Go Lower !'
   } else {
-    message.innerHTML = 'Go Higher !'
+    message.innerText = 'Go Higher !'
   }
 
   // keep playing untill user guessing the correct number
