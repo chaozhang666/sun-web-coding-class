@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+}
+
+.card {
+  border-radius: 20px;
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+  box-shadow: 0 0 10px #fff;
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px;
+  color: #ffffff;
+  text-shadow: -5px 5px 0px #00e6e6, -10px 10px 0px #01cccc,
+    -15px 15px 0px #00bdbd;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7006f;
+  background-image: url("https://www.transparenttextures.com/patterns/bo-play.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
