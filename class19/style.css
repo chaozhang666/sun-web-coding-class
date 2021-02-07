@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
 * {
   margin: 0;
+  font-family: 'Indie Flower', cursive;
 }
 
 body {
@@ -49,6 +52,7 @@ body {
   width: 150px;
   height: 150px;
   border-radius: 50%;
+  margin-top: 40px;
 }
 
 .nav {
@@ -67,3 +71,26 @@ body {
   cursor: pointer;
 }
 
+#gameContent, #libraryContent, #skillContent, #lifeContent{
+  padding: 100px;
+}
+
+.content h1 {
+  color: #fff;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.content p {
+  color: #fff;
+  font-size: 20px;
+}
+
+#mainContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
