@@ -5,38 +5,25 @@
   font-family: 'Indie Flower', cursive;
 }
 
-body {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background: linear-gradient(#6866eb, #47e4ca)
-}
-
 .container {
-  width: 1000px;
-  height: 600px;
+  width: 100%;
+  height: 1000px;
   display: flex;
   flex-direction: row;
-  border-radius: 20px;
 }
 
 .left {
-  width: 300px;
-  height: 100%;
+  width: 30%;
   background-color: #0194e9;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
+  /* border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px; */
 }
 
 .right {
-  width: 700px;
-  height: 100%;
+  width: 70%;
   background-color: #35c1d0; 
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
+  /* border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px; */
 }
 
 .profile {
@@ -138,6 +125,9 @@ a {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  width: 400px;
+  height: 200px;
+  overflow: scroll;
 }
 
 #lifeContent img {
