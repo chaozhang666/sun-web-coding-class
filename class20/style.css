@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+* {
+  margin: 0;
+  font-family: 'Indie Flower', cursive;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(#6866eb, #47e4ca)
+}
+
+.container {
+  width: 1000px;
+  height: 600px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 20px;
+}
+
+.left {
+  width: 300px;
+  height: 100%;
+  background-color: #0194e9;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.right {
+  width: 700px;
+  height: 100%;
+  background-color: #35c1d0; 
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.profile {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.name {
+  font-size: 20px;
+}
+
+.profileImg {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.nav {
+  text-align: center;
+  margin: 40px;
+}
+
+.nav p {
+  margin: 40px;
+  font-size: 20px;
+  color: white;
+}
+
+.nav p:hover {
+  color: black;
+  cursor: pointer;
+}
+
+#gameContent, #libraryContent, #skillContent, #lifeContent{
+  padding: 80px;
+}
+
+.content h1 {
+  color: #fff;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.content p {
+  color: #fff;
+  font-size: 20px;
+}
+
+#mainContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.gameSection {
+  border-radius: 30px;
+  box-shadow: 2px 2px 2px grey;
+  width: 350px;
+  height: 100px;
+  background-color: #fff;
+  margin: auto;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.gameSection img {
+  width: 50px;
+  height: 50px;
+}
+
+.gameSection p {
+  color: black;
+  margin-left: 30px;
+}
+
+#libraryContent {
+  text-align: center;
+}
+
+#libraryContent img {
+  margin-bottom: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+#lifeContent {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#lifeContent img {
+ width: 140px;
+ height: 80px;
+ margin: 10px;
+}
